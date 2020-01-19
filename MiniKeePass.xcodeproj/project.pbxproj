@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C275CE0023D8FF1C2FABB6F /* libPods-MiniKeePass.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 392661FC28381604DC31EDB5 /* libPods-MiniKeePass.a */; };
 		4E8C169316B3E871004195A1 /* fr-createdb.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E8C168E16B3E871004195A1 /* fr-createdb.html */; };
 		4E8C169416B3E871004195A1 /* fr-dropbox.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E8C168F16B3E871004195A1 /* fr-dropbox.html */; };
 		4E8C169516B3E871004195A1 /* fr-itunes.html in Resources */ = {isa = PBXBuildFile; fileRef = 4E8C169016B3E871004195A1 /* fr-itunes.html */; };
@@ -146,6 +147,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		392661FC28381604DC31EDB5 /* libPods-MiniKeePass.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiniKeePass.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E8C168E16B3E871004195A1 /* fr-createdb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "fr-createdb.html"; sourceTree = "<group>"; };
 		4E8C168F16B3E871004195A1 /* fr-dropbox.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "fr-dropbox.html"; sourceTree = "<group>"; };
 		4E8C169016B3E871004195A1 /* fr-itunes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "fr-itunes.html"; sourceTree = "<group>"; };
@@ -359,12 +361,14 @@
 		68E0831C146F2D37001C4EDF /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68EA62DA1CC972F300B33E42 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68EBC2D51613394D00E8E799 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8ACFF692A7D3A5B5D84BC385 /* Pods-MiniKeePass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniKeePass.debug.xcconfig"; path = "Target Support Files/Pods-MiniKeePass/Pods-MiniKeePass.debug.xcconfig"; sourceTree = "<group>"; };
 		BDB0FF5D194C7C6F00C44DEF /* nl */ = {isa = PBXFileReference; lastKnownFileType = text; name = nl; path = nl.lproj/AppStore.txt; sourceTree = "<group>"; };
 		BDB0FF5E194C7C6F00C44DEF /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BDB0FF5F194C7C6F00C44DEF /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C9CE4DEF1F2C47970028266A /* tr */ = {isa = PBXFileReference; lastKnownFileType = text; name = tr; path = tr.lproj/AppStore.txt; sourceTree = "<group>"; };
 		C9CE4DF01F2C47980028266A /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9CE4DF11F2C47980028266A /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DFDDF02EC66C7F957A27952F /* Pods-MiniKeePass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniKeePass.release.xcconfig"; path = "Target Support Files/Pods-MiniKeePass/Pods-MiniKeePass.release.xcconfig"; sourceTree = "<group>"; };
 		EFD785BA15B3D02600B9A276 /* zh-Hans */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		EFD785BB15B3D03F00B9A276 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -384,6 +388,7 @@
 				689DFFDA13A4273F005EBD36 /* UIKit.framework in Frameworks */,
 				689D001113A4277E005EBD36 /* libxml2.dylib in Frameworks */,
 				689D001313A42784005EBD36 /* libz.dylib in Frameworks */,
+				1C275CE0023D8FF1C2FABB6F /* libPods-MiniKeePass.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,6 +670,7 @@
 				689D041413A42B85005EBD36 /* Resources */,
 				689DFFD613A4273F005EBD36 /* Products */,
 				526D9FA3167CDC010097213E /* MBProgressHUD.xcodeproj */,
+				FCCE4C2FE436D02D47DAA006 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -688,6 +694,7 @@
 				689DFFD913A4273F005EBD36 /* UIKit.framework */,
 				689D001013A4277E005EBD36 /* libxml2.dylib */,
 				689D001213A42784005EBD36 /* libz.dylib */,
+				392661FC28381604DC31EDB5 /* libPods-MiniKeePass.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -862,6 +869,15 @@
 			path = "Move Items View";
 			sourceTree = "<group>";
 		};
+		FCCE4C2FE436D02D47DAA006 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8ACFF692A7D3A5B5D84BC385 /* Pods-MiniKeePass.debug.xcconfig */,
+				DFDDF02EC66C7F957A27952F /* Pods-MiniKeePass.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -869,6 +885,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 689D000613A42740005EBD36 /* Build configuration list for PBXNativeTarget "MiniKeePass" */;
 			buildPhases = (
+				374907E29F01D6CA6145706D /* [CP] Check Pods Manifest.lock */,
 				689DFFD113A4273F005EBD36 /* Sources */,
 				689DFFD213A4273F005EBD36 /* Frameworks */,
 				68C17C9C1A3E1774008DD56B /* Increment Build Number */,
@@ -889,12 +906,12 @@
 		689DFFCC13A4273F005EBD36 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Self;
 				TargetAttributes = {
 					689DFFD413A4273F005EBD36 = {
 						DevelopmentTeam = G9ZT7943FZ;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1130;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.iCloud = {
@@ -906,7 +923,7 @@
 			};
 			buildConfigurationList = 689DFFCF13A4273F005EBD36 /* Build configuration list for PBXProject "MiniKeePass" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -920,6 +937,7 @@
 				pt,
 				nl,
 				tr,
+				Base,
 			);
 			mainGroup = 689DFFCA13A4273F005EBD36;
 			productRefGroup = 689DFFD613A4273F005EBD36 /* Products */;
@@ -997,6 +1015,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		374907E29F01D6CA6145706D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniKeePass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		68C17C9C1A3E1774008DD56B /* Increment Build Number */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 8;
@@ -1170,12 +1210,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1224,12 +1266,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1262,6 +1306,7 @@
 		};
 		689D000713A42740005EBD36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ACFF692A7D3A5B5D84BC385 /* Pods-MiniKeePass.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1281,13 +1326,14 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "MiniKeePass/MiniKeePass-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		689D000813A42740005EBD36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFDDF02EC66C7F957A27952F /* Pods-MiniKeePass.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1305,7 +1351,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "Flush Software Development: *";
 				SWIFT_OBJC_BRIDGING_HEADER = "MiniKeePass/MiniKeePass-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
