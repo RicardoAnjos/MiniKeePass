@@ -638,8 +638,8 @@ static NSString *TextFieldCellIdentifier = @"TextFieldCell";
 	MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
 
 	hud.mode = MBProgressHUDModeText;
-    hud.detailsLabelText = self.entry.password;
-    hud.detailsLabelFont = [UIFont fontWithName:@"Andale Mono" size:24];
+//    hud.detailsLabelText = self.entry.password;
+//    hud.detailsLabelFont = [UIFont fontWithName:@"Andale Mono" size:24];
 	hud.margin = 10.f;
 	hud.removeFromSuperViewOnHide = YES;
     [hud addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:hud action:@selector(hide:)]];
@@ -654,7 +654,7 @@ static NSString *TextFieldCellIdentifier = @"TextFieldCell";
     
     PasswordGeneratorViewController *passwordGeneratorViewController = (PasswordGeneratorViewController *)navigationController.topViewController;
     passwordGeneratorViewController.donePressed = ^(PasswordGeneratorViewController *passwordGeneratorViewController, NSString *password) {
-        passwordCell.textField.text = password;
+        self->passwordCell.textField.text = password;
         [passwordGeneratorViewController dismissViewControllerAnimated:YES completion:nil];
     };
     passwordGeneratorViewController.cancelPressed = ^(PasswordGeneratorViewController *passwordGeneratorViewController) {
