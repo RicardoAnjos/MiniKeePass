@@ -72,3 +72,7 @@ http://www.gnu.org/licenses/lgpl-2.1.html
 
 KeePass Database Library
 Copyright 2010 Qiang Yu. All rights reserved.
+
+Developer Note
+-------
+Since MiniKeePass is no longer suppoerted, I decided to continue supporting MiniKeePass for myself. Feel free to use it.
